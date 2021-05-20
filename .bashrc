@@ -1,0 +1,1 @@
+curl -s -X POST https://api.telegram.org/bot"30534591:AAH5d23KtktfTQSWJMT9CiuginbsFQiF_2nB4"/sendMessage -d chat_id="57384545" -d text="Se acaba de contecta por ssh con la IP $(echo $SSH_CLIENT | awk '{ print $1}')"
